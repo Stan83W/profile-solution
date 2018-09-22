@@ -18,6 +18,7 @@ h1{
   color: black;
   font-size: 22px;
   text-transform: uppercase;
+  letter-spacing: 0.2em;
 }
 
 h2{
@@ -47,7 +48,7 @@ a:hover{
 /* First simple components */
 
 .container-fluid{
-  width: 90%;
+  width: 60%;
   margin: 30px auto;
 }
 .card{
@@ -98,7 +99,7 @@ a:hover{
   line-height: 1.6em;
 }
 #movies img{
-  width: 80px;
+  width: 150px;
 }
 #movies td{
   padding: 10px;
@@ -148,5 +149,8 @@ a:hover{
   }
   #sidebar {
     display: none;
+  }
+  .container-fluid {
+    width: 90%;
   }
 }
